@@ -13,7 +13,7 @@ Estrutura do Projeto:
 
 Executando o Projeto:
 
-1. Clone o repositório: `git clone https://github.com/seu-usuario/DesafioPOO.git`
+1. Clone o repositório: `https://github.com/Hyngras/Desafio_POO_Celular.git`
 2. Abra o projeto em um ambiente de desenvolvimento .NET (Visual Studio).
 3. Execute o programa para observar a saída no console, demonstrando a interação com celulares Nokia e iPhone.
 
