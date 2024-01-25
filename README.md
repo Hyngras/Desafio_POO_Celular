@@ -1,19 +1,22 @@
-# Desafio_POO_Celular
-Este projeto foi criado para aplicar conceitos de orientação a objetos em C# no contexto de desenvolvimento .NET. O objetivo é modelar um sistema que representa celulares de duas marcas: Nokia e iPhone, utilizando abstração e herança.
+# DIO - Trilha .NET - Programação orientada a objetos
+www.dio.me
 
-Estrutura do Projeto:
+## Desafio de projeto
+Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de orientação a objetos, da trilha .NET da DIO.
 
-1. Smartphone (Smartphone.cs): Classe abstrata que serve como modelo genérico para celulares. Contém propriedades `Numero`, `Modelo`, `IMEI` e `Memoria`, além de métodos como `Ligar`, `ReceberLigacao` e `InstalarAplicativo` (método abstrato).
+## Contexto
+Você é responsável por modelar um sistema que trabalha com celulares. Para isso, foi solicitado que você faça uma abstração de um celular e disponibilize maneiras de diferentes marcas e modelos terem seu próprio comportamento, possibilitando um maior reuso de código e usando a orientação a objetos.
 
-2. Nokia (Nokia.cs): Classe filha de `Smartphone` que representa um celular Nokia. Implementa o método `InstalarAplicativo` de acordo com o comportamento específico do Nokia.
+## Proposta
+Você precisa criar um sistema em .NET, do tipo console, mapeando uma classe abstrata e classes específicas para dois tipos de celulares: Nokia e iPhone. 
+Você deve criar as suas classes de acordo com o diagrama abaixo:
 
-3. Iphone (Iphone.cs): Classe filha de `Smartphone` que representa um celular iPhone. Implementa o método `InstalarAplicativo` de acordo com o comportamento específico do iPhone.
+![Diagrama classes](Imagens/diagrama.png)
 
-4. Program (Program.cs): Arquivo de entrada que contém um exemplo simples de uso das classes `Nokia` e `Iphone` para realizar testes.
+## Regras e validações
+1. A classe **Smartphone** deve ser abstrata, não permitindo instanciar e servindo apenas como modelo.
+2. A classe **Nokia** e **Iphone** devem ser classes filhas de Smartphone.
+3. O método **InstalarAplicativo** deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.
 
-Executando o Projeto:
-
-1. Clone o repositório: `https://github.com/Hyngras/Desafio_POO_Celular.git`
-2. Abra o projeto em um ambiente de desenvolvimento .NET (Visual Studio).
-3. Execute o programa para observar a saída no console, demonstrando a interação com celulares Nokia e iPhone.
-
+## Solução
+O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
